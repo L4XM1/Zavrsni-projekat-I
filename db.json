@@ -1,0 +1,68 @@
+{
+  "destinations": [
+    {
+      "id": 1,
+      "src": "images/london.jpeg",
+      "destinationName": "London",
+      "startingDate": "12.09.2021.",
+      "duration": 7,
+      "price": 950,
+      "details": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus quibusdam assumenda dolores laboriosam sit reprehenderit soluta obcaecati similique pariatur commodi! "
+    },
+    {
+      "id": 2,
+      "src": "images/airbnb_vs_hotel.png",
+      "destinationName": "New York",
+      "startingDate": "27.06.2021.",
+      "duration": 5,
+      "price": 1550,
+      "details": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus quibusdam assumenda dolores laboriosam sit reprehenderit soluta obcaecati similique pariatur commodi!"
+    },
+    {
+      "id": 3,
+      "src": "images/paris.jpg",
+      "destinationName": "Paris",
+      "startingDate": "30.01.2021.",
+      "duration": 10,
+      "price": 2550,
+      "details": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus quibusdam assumenda dolores laboriosam sit reprehenderit soluta obcaecati similique pariatur commodi!"
+    },
+    {
+      "id": 4,
+      "src": "images/rome.jpg",
+      "destinationName": "Rome",
+      "startingDate": "29.11.2019.",
+      "duration": 7,
+      "price": 650,
+      "details": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus quibusdam assumenda dolores laboriosam sit reprehenderit soluta obcaecati similique pariatur commodi!"
+    },
+    {
+      "id": 5,
+      "src": "images/thailand.jpg",
+      "destinationName": "Thailand",
+      "startingDate": "29.11.2019.",
+      "duration": 15,
+      "price": 2350,
+      "details": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus quibusdam assumenda dolores laboriosam sit reprehenderit soluta obcaecati similique pariatur commodi!"
+    } ,
+    {
+      "id": 6,
+      "src": "images/venice.jpg",
+      "destinationName": "Venice",
+      "startingDate": "29.11.2019.",
+      "duration": 5,
+      "price": 550,
+      "details": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus quibusdam assumenda dolores laboriosam sit reprehenderit soluta obcaecati similique pariatur commodi!"
+    }
+  ],
+  "reservations": [
+      {   "id": "",
+          "name": "",
+          "surname": "",
+          "email": "",
+          "destinationName": "",
+          "price": "",
+          "note":""
+      }
+  ]
+}

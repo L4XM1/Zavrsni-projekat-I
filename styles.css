@@ -1,0 +1,401 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Inter", sans-serif;
+}
+
+/*------------------NAVBAR-------------------*/
+#logo {
+  width: 5.5rem;
+}
+
+.navbar-toggler {
+  border: 2px solid #f2a463;
+}
+
+.navbar-toggler-icon {
+  background: url(./images/toggler-icon.svg);
+}
+
+#active {
+  color: black;
+}
+
+.nav-link {
+  color: gray;
+  font-size: 1.25em;
+  font-weight: 400;
+}
+
+.nav-link:hover {
+  color: black;
+}
+
+.nav-tabs {
+  border-bottom: 0px;
+}
+/*-------------------end of navbar-------------*/
+.orange-hr {
+  margin: 0;
+  border-top: 3px solid #f2a463;
+}
+
+/*--------------------INDEX page VIDEO cover----------------*/
+
+video {
+  margin-top: -1px;
+  width: 100%;
+  height: calc(70vw * (9 / 16));
+  object-fit: cover;
+}
+
+/*------------------INDEX page OFFER section----------------*/
+
+.orange-h1 {
+  color: #f2a463;
+  margin-bottom: 20px;
+  text-align: center;
+  font-size: calc(25px + 6 * ((100vw - 320px) / 680));
+  font-weight: 400;
+}
+
+#offer-wrapper h1 + p {
+  margin-bottom: 35px;
+}
+
+/*---------------------INDEX page Links---------------------*/
+
+#offer-wrapper {
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+#offer-wrapper ul li img {
+  width: 8vw;
+  margin-bottom: 10px;
+}
+
+#offer-wrapper ul {
+  list-style-type: none;
+}
+
+#offer-wrapper ul li a {
+  color: black;
+}
+
+#offer-wrapper ul li a:hover {
+  text-decoration: none;
+  color: #f2a463;
+}
+
+#offer-wrapper li h5 {
+  font-weight: 650;
+  margin-bottom: 20px;
+}
+
+/*-------------------INDEX page CONTEST------------------*/
+
+#contest-img {
+  background: url(./images/contest_image.jpg);
+  opacity: 50%;
+  background-position: center;
+  background-size: cover;
+  height: calc(70vw * (9 / 16));
+}
+
+.contest-title {
+  font-weight: 600;
+}
+
+#contest-text {
+  width: 20vw;
+  text-align: left;
+  margin-top: 0px;
+}
+
+#contest-btn {
+  border-radius: 2px solid black;
+  box-shadow: 1px 1px black;
+  padding: 4px 17px 4px 17px;
+  background-color: transparent;
+  text-align: left;
+}
+
+#contest-btn a {
+  text-decoration: none;
+  color: black;
+  font-size: 0.9rem;
+}
+
+#contest-btn a ::after {
+  color: purple;
+}
+
+@media (max-width: 900px) {
+  #contest-text {
+    width: 50vw;
+    margin-top: -10px;
+    text-align: left;
+  }
+  @media (max-width: 650px) {
+    #contest-text {
+      width: 90vw;
+      margin-top: -15px;
+      text-align: center;
+      color: black;
+    }
+    #contest-title1 {
+      font-size: 5vw;
+    }
+
+    .lead {
+      font-size: 4vw;
+      margin-bottom: 10px;
+    }
+
+    #contest-btn {
+      margin-top: -35px;
+      padding: 2px 10px 2px 10px;
+      text-align: center;
+    }
+  }
+}
+/*-----------------------INDEX page top destinations--------------------*/
+
+.venice {
+  background: url(images/venice.jpg);
+}
+
+.paris {
+  background: url(images/paris.jpg);
+}
+
+.rome {
+  background: url(images/rome.jpg);
+}
+
+.venice,
+.paris,
+.rome {
+  height: 500px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding-top: 150px;
+  color: white;
+  margin: 1rem 0.25rem 0.25rem 0;
+}
+
+.top-destinations button {
+  border: none;
+  padding: 0 9px 0 9px;
+}
+
+/*-----------------------INDEX page TIPS------------------------*/
+
+#map-img {
+  opacity: 50%;
+}
+
+/*------------FOOTER------------------*/
+footer {
+  background: #f2a463;
+  height: 4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2vh;
+}
+
+.footer-ul {
+  display: flex;
+  list-style-type: none;
+}
+
+.footer-ul li a {
+  color: gray;
+}
+
+.footer-ul li a:hover {
+  text-decoration: none;
+}
+
+.footer-ul span {
+  margin: 0 1rem;
+}
+
+.footer-ul :nth-child(2) {
+  margin: 0 1rem 0 0.5rem;
+}
+/*-----------------------------------------------------------ABOUT US page--------------------------------------------*/
+#about-img {
+  background: url(images/world_travel.jpeg);
+  height: 500px;
+  background-size: 100% 100%;
+}
+
+.certificate-img {
+  width: 100px;
+  height: 100px;
+}
+
+.title {
+  color: #f2a463;
+}
+
+#background {
+  background: #fcf8d3;
+}
+
+#about-offer {
+  border-left: 2px solid #f2a463;
+}
+
+.profile-img {
+  width: 75%;
+}
+
+/*----------------------BOOKING page----------------------*/
+#booking-img {
+  background: url(./images/Travel-GettyImages.jpg);
+  height: 400px;
+  background-size: 100% 100%;
+}
+
+.btn-booking {
+  padding: 3px 10px;
+  border-color: #f2a463;
+}
+
+.btn-booking:hover {
+  border-color: #f2a463;
+  background-color: #f2a463;
+  color: white;
+}
+
+/*--------------------------------------------GALLERY page-------------------------------------------*/
+
+.contest-cover {
+  background: url(./images/contest_image.jpg) no-repeat;
+  opacity: 50%;
+  height: 400px;
+  background-size: 100% 100%;
+}
+
+input[type="file"] {
+  width: 0.1px;
+  height: 0.1px;
+  opacity: 0;
+  overflow: hidden;
+  position: absolute;
+  z-index: -1;
+}
+
+label img {
+  width: 5vw;
+}
+
+/*-----------------------------BLOG page-----------------------------------*/
+
+#blog-img {
+  background: url(images/Travel.jpg) no-repeat;
+  height: 500px;
+  background-size: 100% 100%;
+}
+
+.blog-title {
+  font-size: 19px;
+  color: #f2a463;
+}
+
+.blog-date {
+  font-size: 12px;
+  color: lightgray;
+}
+
+.card-text {
+  font-size: 1rem;
+}
+.custom-btn2 {
+  padding: 1px 7px 1px 7px;
+  color: black;
+  border: 1px solid #f2a463;
+  font: 14px;
+}
+
+.custom-btn2 a {
+  text-decoration: none;
+  color: black;
+}
+.blog-card {
+  border-width: 2px;
+}
+.blog-hr {
+  border-top: 2px solid rgba(0, 0, 0, 0.125);
+}
+
+.card-header {
+  background: #f2a463;
+  color: white;
+  font-size: 25px;
+  padding: 4px 4px 4px 10px;
+}
+
+.list-group-item {
+  border-bottom: 1px dashed lightgray;
+}
+
+.custom-btn3 {
+  background: #f2a463;
+  color: white;
+  padding: 1px 7px 1px 7px;
+  font-size: 14px;
+}
+
+/*-------------------SINGLE POST page--------------------*/
+@import url("https://fonts.googleapis.com/css2?family=Piazzolla:ital,wght@1,500;1,600&display=swap");
+#single-post-h4 {
+  font-family: "Piazzolla", serif;
+  color: #f2a463;
+}
+
+.single-post p {
+  font-size: 1.3rem;
+}
+
+.comment {
+  border: 2px solid #f2a3636e;
+  border-radius: 4px;
+  padding: 2px 0px 2px 4px;
+  margin-left: 20px;
+  font-size: 1.3rem;
+  width: 90%;
+}
+
+.custom-btn4 {
+  background: #f2a463;
+  color: white;
+  padding: 2px 5px;
+}
+
+/*-----------------------CONTACT page-----------------------------*/
+.cover-img2 {
+  background: url(./images/Contact_Us.jpg) no-repeat;
+  height: 400px;
+  background-size: 100% 100%;
+}
+
+.custom-btn {
+  color: white;
+  background: #f2a463;
+  border: #f2a463;
+}
+
+#contact-title,
+h6 {
+  color: #f2a463;
+}

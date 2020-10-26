@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <link rel="icon" href="images/tourism.svg" type="image/svg" sizes="16x16" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Završni projekat - destinations</title>
+  </head>
+  <body>
+    <header>
+      <nav
+        class="navbar navbar-expand-lg bg-white d-flex justify-content-around"
+      >
+        <div class="navbar-brand">
+          <a href="index.html"
+            ><img id="logo" src="./images/logo_1.jpg" alt="Travel logo"
+          /></a>
+        </div>
+        <div>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link pb-3" href="index.html">Home </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link pb-3" href="about.html">About Us</a>
+              </li>
+              <li class="nav-item active">
+                <a
+                  id="active"
+                  class="nav-link border-top border-right border-left rounded-top pl-2 pb-3"
+                  href="#"
+                  >Destinations<span class="sr-only">(current)</span></a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link pb-3" href="booking.html">Booking</a>
+              </li>
+              <li class="nav-item active">
+                <a class="nav-link pb-3" href="gallery.html">Gallery</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link pb-3" href="blog.html">Blog</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link pb-3" href="contact.html">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <hr class="m-0" />
+    <main>
+      <section class="container-fluid p-0 m-0">
+        <div
+          id="carouselIndicators"
+          class="carousel slide"
+          data-ride="carousel"
+        >
+          <ol class="carousel-indicators">
+            <li data-target="#carouselIndicators" data-slide-to="0"></li>
+
+            <li data-target="#carouselIndicators" data-slide-to="1"></li>
+            <li
+              data-target="#carouselIndicators"
+              data-slide-to="2"
+              class="active"
+            ></li>
+            <li data-target="#carouselIndicators" data-slide-to="3"></li>
+          </ol>
+          <div class="carousel-inner">
+            <div class="carousel-item">
+              <img
+                class="d-block w-100"
+                src="images/taj_mahal.jpg"
+                alt="Taj Mahal"
+                width="100"
+                height="600"
+              />
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Taj Mahal</h5>
+                <p>
+                  Indian city of Agra. Lorem ipsum dolor sit amet consectetur
+                  adipisicing elit. Quasi, pariatur?
+                </p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img
+                class="d-block w-100"
+                src="images/rio.jpg"
+                alt="Rio De Janeiro"
+                width="100"
+                height="600"
+              />
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Rio De Janeiro</h5>
+                <p>
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                  Perspiciatis ea recusandae asperiores iste soluta beatae!
+                </p>
+              </div>
+            </div>
+            <div class="carousel-item active">
+              <img
+                class="d-block w-100"
+                src="images/london.jpeg"
+                alt="London"
+                width="100"
+                height="600"
+              />
+              <div class="carousel-caption d-none d-md-block">
+                <h5>London</h5>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Commodi non ex sunt reiciendis dolorem beatae.
+                </p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img
+                class="d-block w-100"
+                src="images/thailand.jpg"
+                alt="Thailand"
+                width="100"
+                height="600"
+              />
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Thailand</h5>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Officia beatae dignissimos ullam modi, quibusdam rem.
+                </p>
+              </div>
+            </div>
+          </div>
+          <a
+            class="carousel-control-prev"
+            href="#carouselIndicators"
+            role="button"
+            data-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a
+            class="carousel-control-next"
+            href="#carouselIndicators"
+            role="button"
+            data-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+      </section>
+      <section class="container">
+        <div class="row d-flex justify-content-center">
+          <div class="card mt-3 ml-2 mr-2 mb-4" style="width: 22rem">
+            <img
+              class="card-img-top"
+              src="images/athen.jpg"
+              alt="Athens"
+              style="height: 15rem"
+            />
+            <div class="card-body pt-2 pl-3 pb-2">
+              <h5 class="card-title">Athens</h5>
+              <blockquote class="blockquote mb-0">
+                <h6 class="card-subtitle mt-2 mb-4 text-muted">
+                  Cozy and peaceful
+                </h6>
+                <hr />
+              </blockquote>
+              <p class="card-text">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas,
+                sequi accusamus! Eligendi at quaerat eos quisquam facere
+                voluptatem, impedit officia voluptates dolores. Deleniti vitae
+                ipsum, odio exercitationem doloribus maxime provident.
+              </p>
+              <a href="booking.html" class="custom-btn btn">Read more</a>
+            </div>
+          </div>
+          <div class="card mt-3 ml-2 mr-2 mb-4" style="width: 22rem">
+            <img
+              class="card-img-top"
+              src="images/rome.jpg"
+              alt="Rome"
+              style="height: 15rem"
+            />
+            <div class="card-body pt-2 pl-3 pb-2">
+              <h5 class="card-title">Rome</h5>
+              <blockquote class="blockquote mb-0">
+                <h6 class="card-subtitle mt-2 mb-4 text-muted">
+                  All roads lead to Rome
+                </h6>
+                <hr />
+              </blockquote>
+              <p class="card-text">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas,
+                sequi accusamus! Eligendi at quaerat eos quisquam facere
+                voluptatem, impedit officia voluptates dolores. Deleniti vitae
+                ipsum, odio exercitationem doloribus maxime provident.
+              </p>
+              <a href="booking.html" class="custom-btn btn">Read more</a>
+            </div>
+          </div>
+          <div class="card mt-3 ml-2 mr-2 mb-4" style="width: 22rem">
+            <img
+              class="card-img-top"
+              src="images/quiske.jpg"
+              alt="Quiske"
+              style="height: 15rem"
+            />
+            <div class="card-body pt-2 pl-3 pb-2">
+              <h5 class="card-title">Quiske</h5>
+              <blockquote class="blockquote mb-0">
+                <h6 class="card-subtitle mt-2 mb-4 text-muted">
+                  Let the sea make you free
+                </h6>
+                <hr />
+              </blockquote>
+              <p class="card-text">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas,
+                sequi accusamus! Eligendi at quaerat eos quisquam facere
+                voluptatem, impedit officia voluptates dolores. Deleniti vitae
+                ipsum, odio exercitationem doloribus maxime provident.
+              </p>
+              <a href="booking.html" class="custom-btn btn">Read more</a>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <nav class="container-fluid">
+        <div class="footer">
+          <ul class="footer-ul nav justify-content-center">
+            <li><em>&copy;SmartInIT2020</em></li>
+            <span>|</span>
+            <li>
+              <a href="index.html"><em>Home</em></a>
+            </li>
+            <span>|</span>
+            <li>
+              <a href="#"><em>Privacy Policy</em></a>
+            </li>
+            <span>|</span>
+            <li>
+              <a href="#"><em>Contact Support</em></a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </footer>
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+      integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+      integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
