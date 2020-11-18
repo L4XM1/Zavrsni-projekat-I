@@ -11,6 +11,18 @@ body {
 
 main {
   min-height: 100vh;
+  animation: transitionIn 0.75s;
+}
+/* da se main postepeno pomeri */
+@keyframes transitionIn {
+  from {
+    opacity: 0;
+    transform: rotateX(-10deg); /* po X osi 3D rotacija */
+  }
+  to {
+    opacity: 1;
+    transform: rotateX(0);
+  }
 }
 
 /*------------------NAVBAR-------------------*/
